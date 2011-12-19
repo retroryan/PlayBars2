@@ -9,7 +9,7 @@ object ApplicationBuild extends Build {
 
   val jacksonCoreAsl = "org.codehaus.jackson" % "jackson-core-asl" % "1.9.2"
   val jacksonMapperAsl = "org.codehaus.jackson" % "jackson-mapper-asl" % "1.9.2"
-  // val postgresql = "postgresql" % "postgresql" % "9.0-801.jdbc3"
+  val postgresql = "postgresql" % "postgresql" % "9.0-801.jdbc3"
 
   val appDependencies = Seq(
     // Add your project dependencies here,
