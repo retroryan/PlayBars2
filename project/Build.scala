@@ -13,7 +13,7 @@ object ApplicationBuild extends Build {
 
   val appDependencies = Seq(
     // Add your project dependencies here,
-    jacksonCoreAsl, jacksonMapperAsl
+    jacksonCoreAsl, jacksonMapperAsl, postgresql
   )
 
   val main = PlayProject(appName, appVersion, appDependencies).settings(defaultJavaSettings: _*).settings(
