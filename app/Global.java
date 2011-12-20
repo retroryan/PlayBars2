@@ -13,8 +13,7 @@ public class Global extends GlobalSettings {
 
     public void beforeStart(Application app) {
         File applicationPath = app.path();
-        OfflineEvolutions.applyScript(applicationPath, app.classloader(), "prod");
-        //OfflineEvolutions.applyScript(applicationPath, app.classloader(), "default");
+        OfflineEvolutions.applyScript(applicationPath, app.classloader(), "default");
 
     }
 
