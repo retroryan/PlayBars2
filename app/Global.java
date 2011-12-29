@@ -32,7 +32,6 @@ public class Global extends GlobalSettings {
                         app.classloader()
                 );
 
-                // Insert users first
                 List<Object> bars = all.get("bars");
                 Ebean.save(bars);
 
